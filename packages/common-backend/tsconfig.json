@@ -1,0 +1,10 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
